@@ -2,17 +2,35 @@
 Traitement de « D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly »
 Analyse...
 Erreur : Programme plus qu'obsolète : 2.18.2 (le fichier requiert 2.20.0)
-D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:4:23: Avertissement : la source n'est pas en UTF-8
-  title = "Double port
-                      �e de piano"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:5:28: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a 
+                           �t� g�n�r� par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:5:30: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a �t
+                             � g�n�r� par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:5:33: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a �t� g
+                                �n�r� par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:5:35: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a �t� g�n
+                                  �r� par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ly:5:37: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a �t� g�n�r
+                                    � par GNU Accord"
 Interprétation en cours de la musique...
 Pré-traitement des éléments graphiques...
-Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Bold.otf »
+Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Roma.otf »
+Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Roma.otf »
+Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Roma.otf »
+Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Roma.otf »
+Avertissement : aucun glyphe ne correspond au caractère U+EFFFFFFF dans la fonte « D:/Program Files (x86)/LilyPond/usr/share/lilypond/current/fonts/otf/CenturySchL-Roma.otf »
 Détermination du nombre optimal de pages...
 Répartition de la musique sur une page...
 Dessin des systèmes...
 Sortie mise en page vers « /OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.ps »...
-Avertissement : La conversion de la chaîne « Double port�e de piano » en UTF-16be a échoué :
+Avertissement : La conversion de la chaîne « Ce fichier a �t� g�n�r� par GNU Accord » en UTF-16be a échoué :
+  Séquence d'octets non valide en entrée du convertisseur
+Avertissement : La conversion de la chaîne « Ce fichier a �t� g�n�r� par GNU Accord » en UTF-16be a échoué :
   Séquence d'octets non valide en entrée du convertisseur
 Conversion à « /OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/1_do_majeur_64_double_portee.pdf »...
 erreur fatale : erreur sur les fichiers "D:\\OneDrive\\OneDrive - Steve Prud'Homme\\Projets\\Projets MVS\\GNUAccord\\1_do_majeur_64_double_portee.ly"
