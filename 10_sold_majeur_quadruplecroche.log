@@ -1,0 +1,59 @@
+# -*-compilation-*-
+Traitement de « D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly »
+Analyse...
+Erreur : Programme plus qu'obsolète : 2.18.2 (le fichier requiert 2.20.0)
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:7:12: Erreur : type d'argument erroné pour 1.
+ Attendait pitch, "sol" trouvé
+  \key sol#
+            \major
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:7:12: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  \key sol#
+            \major
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:7:11: Erreur : type d'argument erroné pour 2.
+ Attendait list, #<unspecified> trouvé
+  \key sol
+          # \major
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:3: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:7: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#
+      101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:27: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  sol#101\quadruplecroche 
+                          sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:31: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#101\quadruplecroche sol#
+                              11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:52: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  sol#101\quadruplecroche sol#11\quadruplecroche | 
+                                                   sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:56: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#
+                                                       12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:75: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche 
+                                                                          sol#13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:79: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#
+                                                                              13\quadruplecroche | sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:100: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | 
+                                                                                                   sol#14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:104: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#
+                                                                                                       14\quadruplecroche sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:123: Erreur : chaîne non reconnue ; en dehors d'un script textuel ou de \lyricmode
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche 
+                                                                                                                          sol#15\quadruplecroche
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ly:10:127: Erreur : GUILE a signalé une erreur pour l'expression débutant ici
+  sol#101\quadruplecroche sol#11\quadruplecroche | sol#12\quadruplecroche sol#13\quadruplecroche | sol#14\quadruplecroche sol#
+                                                                                                                              15\quadruplecroche
+Interprétation en cours de la musique...[8][8]
+Pré-traitement des éléments graphiques...
+Détermination du nombre optimal de pages...
+Répartition de la musique sur une page...
+Dessin des systèmes...
+Sortie mise en page vers « /OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.ps »...
+Conversion à « /OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/10_sold_majeur_quadruplecroche.pdf »...
+erreur fatale : erreur sur les fichiers "D:\\OneDrive\\OneDrive - Steve Prud'Homme\\Projets\\Projets MVS\\GNUAccord\\10_sold_majeur_quadruplecroche.ly"

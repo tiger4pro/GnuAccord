@@ -7,3 +7,5 @@
   \key do \major
   \autoBeamOff
   s1
+  do11\quadruplecroche do2\quadruplecroche | do3\quadruplecroche do4\quadruplecroche | do5\quadruplecroche do6\quadruplecroche
+}

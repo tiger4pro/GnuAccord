@@ -1,29 +1,46 @@
 ﻿# Noms des notes de la musique en français
-notes = ['do', 'do#', 'ré', 'ré#', 'mi', 'fa', 'fa#', 'sol', 'sol#', 'la', 'la#', 'si']
+notes = ['do', 'do#', 'réb', 'ré', 'ré#', 'mib', 'mi', 'fa', 'fa#', 'solb', 'sol', 'sol#', 'labb', 'la', 'la#', 'sib', 'si']
 
 # Durée de la quadruple croche
-dur = "\\quadruplecroche"
+dur = "quadruplecroche"
+
+def generate_lilypond_content(note, octave, dur):
+  """
+  Génère le contenu du fichier Lilypond pour un accord majeur.
+  
+  Args:
+    note (str): le nom de la note
+    octave (int): le numéro de l'octave
+    dur (str): la durée de l'accord
+    
+  Returns:
+    str: le contenu du fichier Lilypond
+  """
+  return f"""\\version "2.20.0"
+
+% {note} majeur
+{{
+  \\time 4/4
+  \\tempo 4=100
+  \\key {note} \\major
+  \\autoBeamOff
+  s1
+  {note}{octave}1\\{dur} {note}{octave+1}\\{dur} | {note}{octave+2}\\{dur} {note}{octave+3}\\{dur} | {note}{octave+4}\\{dur} {note}{octave+5}\\{dur}
+}}"""
 
 # Boucle sur tous les octaves (de 1 à 10)
 for octave in range(1, 11):
   # Boucle sur toutes les notes de la gamme
-  for note in notes:
+  for i, note in enumerate(notes):
+    # Remplace les dièses par le caractère "d"
+    note_for_filename = note.replace("#", "d")
+    
     # Crée le nom du fichier
-    filename = "{}_{}_majeur_{}.ly".format(octave, note, dur)
+    filename = f"{octave}_{note_for_filename}_majeur_{dur}.ly"
     
     # Ouvre le fichier en mode écriture
     with open(filename, 'w') as f:
       # Écrit le contenu du fichier
-      f.write("\\version \"2.20.0\"\n")
-      f.write("\n")
-      f.write("% {} majeur\n".format(note))
-      f.write("{\n")
-      f.write("  \\time 4/4\n")
-      f.write("  \\tempo 4=100\n")
-      f.write("  \\key {} \\major\n".format(note))
-      f.write("  \\autoBeamOff\n")
-      f.write("  s1\n")
-      f.write("  {}{}1{} {}{}3{} | {}{}5{} {}{}6{} | {}{}8{} {}{}10{} | {}{}12{} {}{}13{}\n".format(note, octave, dur, note, octave, dur, note, octave, dur, note, octave, dur, note, octave, dur, note, octave, dur))
-      f.write("}\n")
+      f.write(generate_lilypond_content(note, octave, dur))
       
 print("Fichiers créés avec succès!")
