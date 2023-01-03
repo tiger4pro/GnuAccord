@@ -1,18 +1,19 @@
 ﻿# Création du nom du fichier
 filename = "1_do_majeur_64_double_portee.ly"
 
-# Création du contenu du fichier
-content = """\
+# Écriture du contenu du fichier
+with open(filename, "w") as f:
+    f.write(f"""\
 \\version "2.20.0"
 
-\\header {
+\\header {{
   title = "Accord de do majeur"
   composer = "Ce fichier a été généré par GNU Accord"
-}
+}}
 
-\\score {
+\\score {{
   \\new PianoStaff <<
-    \\new Staff {
+    \\new Staff {{
       \\clef "treble"
       \\time 4/4
       \\set Score.tempoHideNote = ##t
@@ -20,18 +21,15 @@ content = """\
       \\key c \\major
       \\autoBeamOn
       <c e g>4
-    }
-    \\new Staff {
+    }}
+    \\new Staff {{
       \\clef "bass"
       \\key c \\major
       \\autoBeamOn
       \\hideNotes
       <c e g>4
-    }
+    }}
   >>
-}
+}}
 """
-
-# Écriture du fichier
-with open(filename, "w") as f:
-    f.write(content)
+    )
