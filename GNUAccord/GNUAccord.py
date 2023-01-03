@@ -6,8 +6,8 @@ content = """\
 \\version "2.20.0"
 
 \\header {
-  title = "Double portée de piano"
-  composer = "Inconnu"
+  title = "Accord de do majeur"
+  composer = "Ce fichier a été généré par GNU Accord"
 }
 
 \\score {
@@ -25,6 +25,7 @@ content = """\
       \\clef "bass"
       \\key c \\major
       \\autoBeamOn
+      \\hideNotes
       <c e g>4
     }
   >>
