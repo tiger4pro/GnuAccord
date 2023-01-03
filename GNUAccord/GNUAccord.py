@@ -18,11 +18,13 @@ content = """\
       \\set Score.tempoHideNote = ##t
       \\tempo 4=60
       \\key c \\major
+      \\autoBeamOn
       <c e g>4
     }
     \\new Staff {
       \\clef "bass"
       \\key c \\major
+      \\autoBeamOn
       <c e g>4
     }
   >>
