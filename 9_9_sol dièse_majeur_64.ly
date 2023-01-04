@@ -13,6 +13,6 @@
     \tempo 4=60
     \key gis \major
     \autoBeamOn
-    <gis cis e>4
+    gis4 gisis e4
   >>
 }

@@ -13,6 +13,6 @@
     \tempo 4=60
     \key fis \major
     \autoBeamOn
-    <fis cis e>4
+    fis4 fisis e4
   >>
 }
