@@ -2,7 +2,7 @@
 
 \header {
   title = "Accord de e majeur"
-  composer = "Ce fichier a été généré par GNU Accord"
+  composer = "Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par GNU Accord"
 }
 
 \score {

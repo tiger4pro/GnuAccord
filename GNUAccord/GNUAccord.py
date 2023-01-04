@@ -19,7 +19,7 @@ filenames = [f"1_{note}_majeur_64_double_portee.ly" for note in notes]
 
 # Génération des fichiers
 for filename, note in zip(filenames, notes):
-    with open(filename, "w") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         f.write(f"""\
 \\version "2.20.0"
 
