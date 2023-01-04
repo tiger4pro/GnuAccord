@@ -1,7 +1,7 @@
 \version "2.20.0"
 
 \header {
-  title = "Accord de fis majeur"
+  title = "Accord de fa dièse majeur"
   composer = "Ce fichier a été généré par GNU Accord"
 }
 

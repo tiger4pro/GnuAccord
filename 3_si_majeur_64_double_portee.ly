@@ -1,7 +1,7 @@
 \version "2.20.0"
 
 \header {
-  title = "Accord de gis majeur"
+  title = "Accord de si majeur"
   composer = "Ce fichier a été généré par GNU Accord"
 }
 
@@ -12,16 +12,16 @@
       \time 4/4
       \set Score.tempoHideNote = ##t
       \tempo 4=60
-      \key gis \major
+      \key b \major
       \autoBeamOn
-      <gis cis e>4
+      <b cis e>4
     }
     \new Staff {
       \clef "bass"
-      \key gis \major
+      \key b \major
       \autoBeamOn
       \hideNotes
-      <gis cis e>4
+      <b cis e>4
     }
   >>
 }

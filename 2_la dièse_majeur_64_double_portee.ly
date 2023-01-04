@@ -1,7 +1,7 @@
 \version "2.20.0"
 
 \header {
-  title = "Accord de dis majeur"
+  title = "Accord de la dièse majeur"
   composer = "Ce fichier a été généré par GNU Accord"
 }
 
@@ -12,16 +12,16 @@
       \time 4/4
       \set Score.tempoHideNote = ##t
       \tempo 4=60
-      \key dis \major
+      \key ais \major
       \autoBeamOn
-      <dis cis e>4
+      <ais cis e>4
     }
     \new Staff {
       \clef "bass"
-      \key dis \major
+      \key ais \major
       \autoBeamOn
       \hideNotes
-      <dis cis e>4
+      <ais cis e>4
     }
   >>
 }
