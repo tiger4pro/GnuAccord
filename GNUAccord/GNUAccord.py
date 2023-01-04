@@ -1,8 +1,5 @@
 ﻿# Dictionnaire des correspondances entre les noms de notes en anglais et en français
 note_names = {
-    "a": "la",
-    "ais": "la dièse",
-    "b": "si",
     "c": "do",
     "cis": "do dièse",
     "d": "ré",
@@ -12,11 +9,14 @@ note_names = {
     "fis": "fa dièse",
     "g": "sol",
     "gis": "sol dièse",
+    "a": "la",
+    "ais": "la dièse",
+    "b": "si",
 }
 
 # Itération sur les notes du clavier de 88 touches
 for i, note in enumerate(
-    ["a", "ais", "b", "c", "cis", "d", "dis", "e", "f", "fis", "g", "gis"]
+    ["c", "cis", "d", "dis", "e", "f", "fis", "g", "gis", "a", "ais", "b"]
 ):
     # Création du nom du fichier
     filename = f"{i + 1}_{i + 1}_{note_names[note]}_majeur_64_double_portee.ly"
@@ -32,7 +32,8 @@ for i, note in enumerate(
 }}
 
 \\score {{
-  \\new Staff {{
+  \\new PianoStaff <<
+    \\new Staff {{
       \\clef "treble"
       \\time 4/4
       \\set Score.tempoHideNote = ##t
@@ -52,3 +53,4 @@ for i, note in enumerate(
 }}
 """
         )
+
