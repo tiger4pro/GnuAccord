@@ -1,21 +1,30 @@
-﻿# Nombres d'octaves à générer
-octave_min = 1
-octave_max = 9
+﻿# Liste des notes du clavier de 88 touches
+notes = [
+    "a",
+    "ais",
+    "b",
+    "c",
+    "cis",
+    "d",
+    "dis",
+    "e",
+    "f",
+    "fis",
+    "g",
+    "gis",
+]
 
-# Notes du clavier de 88 touches
-notes = ["a", "ais", "b", "c", "cis", "d", "dis", "e", "f", "fis", "g", "gis"]
+# Création de la liste des noms de fichiers
+filenames = [f"1_{note}_majeur_64_double_portee.ly" for note in notes]
 
 # Génération des fichiers
-for octave in range(octave_min, octave_max + 1):
-    for note in notes:
-        filename = f"{octave}_{note}_majeur_64_double_portee.ly"
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write(f"""\
-#(set-input-mode (string-append "utf-" (string-length #"é")))
+for filename, note in zip(filenames, notes):
+    with open(filename, "w") as f:
+        f.write(f"""\
 \\version "2.20.0"
 
 \\header {{
-  title = "Accord de {note}{octave} majeur"
+  title = "Accord de {note} majeur"
   composer = "Ce fichier a été généré par GNU Accord"
 }}
 
@@ -28,16 +37,16 @@ for octave in range(octave_min, octave_max + 1):
       \\tempo 4=60
       \\key {note} \\major
       \\autoBeamOn
-      <{note}{octave} cis{octave} e{octave}>4
+      <{note} cis e>4
     }}
     \\new Staff {{
       \\clef "bass"
       \\key {note} \\major
       \\autoBeamOn
       \\hideNotes
-      <{note}{octave} cis{octave} e{octave}>4
+      <{note} cis e>4
     }}
   >>
 }}
 """
-            )
+        )

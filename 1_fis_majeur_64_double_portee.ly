@@ -1,9 +1,8 @@
-#(set-input-mode (string-append "utf-" (string-length #"Ã©")))
 \version "2.20.0"
 
 \header {
-  title = "Accord de fis1 majeur"
-  composer = "Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par GNU Accord"
+  title = "Accord de fis majeur"
+  composer = "Ce fichier a été généré par GNU Accord"
 }
 
 \score {
@@ -15,14 +14,14 @@
       \tempo 4=60
       \key fis \major
       \autoBeamOn
-      <fis1 cis1 e1>4
+      <fis cis e>4
     }
     \new Staff {
       \clef "bass"
       \key fis \major
       \autoBeamOn
       \hideNotes
-      <fis1 cis1 e1>4
+      <fis cis e>4
     }
   >>
 }

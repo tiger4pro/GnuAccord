@@ -1,9 +1,8 @@
-#(set-input-mode (string-append "utf-" (string-length #"Ã©")))
 \version "2.20.0"
 
 \header {
-  title = "Accord de c1 majeur"
-  composer = "Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par GNU Accord"
+  title = "Accord de c majeur"
+  composer = "Ce fichier a été généré par GNU Accord"
 }
 
 \score {
@@ -15,14 +14,14 @@
       \tempo 4=60
       \key c \major
       \autoBeamOn
-      <c1 cis1 e1>4
+      <c cis e>4
     }
     \new Staff {
       \clef "bass"
       \key c \major
       \autoBeamOn
       \hideNotes
-      <c1 cis1 e1>4
+      <c cis e>4
     }
   >>
 }
