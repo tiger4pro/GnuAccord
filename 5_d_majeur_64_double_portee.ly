@@ -1,8 +1,9 @@
+#(set-input-mode (string-append "utf-" (string-length #"Ã©")))
 \version "2.20.0"
 
 \header {
-  title = "Accord de do majeur"
-  composer = "Ce fichier a été généré par GNU Accord"
+  title = "Accord de d5 majeur"
+  composer = "Ce fichier a Ã©tÃ© gÃ©nÃ©rÃ© par GNU Accord"
 }
 
 \score {
@@ -12,16 +13,16 @@
       \time 4/4
       \set Score.tempoHideNote = ##t
       \tempo 4=60
-      \key c \major
+      \key d \major
       \autoBeamOn
-      <c e g>4
+      <d5 cis5 e5>4
     }
     \new Staff {
       \clef "bass"
-      \key c \major
+      \key d \major
       \autoBeamOn
       \hideNotes
-      <c e g>4
+      <d5 cis5 e5>4
     }
   >>
 }

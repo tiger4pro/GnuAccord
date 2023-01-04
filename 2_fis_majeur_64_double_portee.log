@@ -1,0 +1,35 @@
+# -*-compilation-*-
+Traitement de Â«Â D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.lyÂ Â»
+Analyse...
+Erreur : Programme plus qu'obsolÃ¨teÂ : 2.18.2 (le fichier requiert 2.20.0)
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:5:28: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a 
+                           été généré par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:5:30: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a ét
+                             é généré par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:5:33: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a été g
+                                énéré par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:5:35: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a été gén
+                                  éré par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:5:37: Avertissement : la source n'est pas en UTF-8
+  composer = "Ce fichier a été génér
+                                    é par GNU Accord"
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:17:11: Erreur : syntax error, unexpected UNSIGNED
+      <fis
+          2 cis2 e2>4
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:17:20: Erreur : syntax error, unexpected >
+      <fis2 cis2 e2
+                   >4
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:24:11: Erreur : syntax error, unexpected UNSIGNED
+      <fis
+          2 cis2 e2>4
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:24:20: Erreur : syntax error, unexpected >
+      <fis2 cis2 e2
+                   >4
+D:/OneDrive/OneDrive - Steve Prud'Homme/Projets/Projets MVS/GNUAccord/2_fis_majeur_64_double_portee.ly:9:3: Erreur : suite Ã  des erreurs rÃ©pÃ©tÃ©es, l'expression musicale sera ignorÃ©e
+  
+  \new PianoStaff <<
+erreur fataleÂ : erreur sur les fichiers "D:\\OneDrive\\OneDrive - Steve Prud'Homme\\Projets\\Projets MVS\\GNUAccord\\2_fis_majeur_64_double_portee.ly"
