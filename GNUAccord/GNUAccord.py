@@ -1,24 +1,11 @@
-﻿# Liste des notes du clavier de 88 touches
-notes = [
-    "a",
-    "ais",
-    "b",
-    "c",
-    "cis",
-    "d",
-    "dis",
-    "e",
-    "f",
-    "fis",
-    "g",
-    "gis",
-]
+﻿# Itération sur les notes du clavier de 88 touches
+for i, note in enumerate(
+    ["a", "ais", "b", "c", "cis", "d", "dis", "e", "f", "fis", "g", "gis"]
+):
+    # Création du nom du fichier
+    filename = f"{i + 1}_{note}_majeur_64_double_portee.ly"
 
-# Création de la liste des noms de fichiers
-filenames = [f"1_{note}_majeur_64_double_portee.ly" for note in notes]
-
-# Génération des fichiers
-for filename, note in zip(filenames, notes):
+    # Écriture du contenu du fichier
     with open(filename, "w", encoding="utf-8") as f:
         f.write(f"""\
 \\version "2.20.0"
