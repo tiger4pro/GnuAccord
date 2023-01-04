@@ -39,7 +39,7 @@ for i, note in enumerate(
     \\tempo 4=60
     \\key {note} \\major
     \\autoBeamOn
-    <{note} cis e>4
+    {note}4 {note}is e4
   >>
 }}
 """
