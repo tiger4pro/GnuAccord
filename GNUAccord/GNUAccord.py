@@ -19,7 +19,7 @@ for i, note in enumerate(
     ["c", "cis", "d", "dis", "e", "f", "fis", "g", "gis", "a", "ais", "b"]
 ):
     # Création du nom du fichier
-    filename = f"{i + 1}_{i + 1}_{note_names[note]}_majeur_64_double_portee.ly"
+    filename = f"{i + 1}_{i + 1}_{note_names[note]}_majeur_64.ly"
 
     # Écriture du contenu du fichier
     with open(filename, "w", encoding="utf-8") as f:
@@ -32,25 +32,15 @@ for i, note in enumerate(
 }}
 
 \\score {{
-  \\new PianoStaff <<
-    \\new Staff {{
-      \\clef "treble"
-      \\time 4/4
-      \\set Score.tempoHideNote = ##t
-      \\tempo 4=60
-      \\key {note} \\major
-      \\autoBeamOn
-      <{note} cis e>4
-    }}
-    \\new Staff {{
-      \\clef "bass"
-      \\key {note} \\major
-      \\autoBeamOn
-      \\hideNotes
-      <{note} cis e>4
-    }}
+  \\new Staff <<
+    \\clef "treble"
+    \\time 4/4
+    \\set Score.tempoHideNote = ##t
+    \\tempo 4=60
+    \\key {note} \\major
+    \\autoBeamOn
+    <{note} cis e>4
   >>
 }}
 """
         )
-
