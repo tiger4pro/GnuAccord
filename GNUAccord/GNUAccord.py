@@ -1,9 +1,25 @@
-﻿# Itération sur les notes du clavier de 88 touches
+﻿# Dictionnaire des correspondances entre les noms de notes en anglais et en français
+note_names = {
+    "a": "la",
+    "ais": "la dièse",
+    "b": "si",
+    "c": "do",
+    "cis": "do dièse",
+    "d": "ré",
+    "dis": "ré dièse",
+    "e": "mi",
+    "f": "fa",
+    "fis": "fa dièse",
+    "g": "sol",
+    "gis": "sol dièse",
+}
+
+# Itération sur les notes du clavier de 88 touches
 for i, note in enumerate(
     ["a", "ais", "b", "c", "cis", "d", "dis", "e", "f", "fis", "g", "gis"]
 ):
     # Création du nom du fichier
-    filename = f"{i + 1}_{note}_majeur_64_double_portee.ly"
+    filename = f"{i + 1}_{note_names[note]}_majeur_64_double_portee.ly"
 
     # Écriture du contenu du fichier
     with open(filename, "w", encoding="utf-8") as f:
@@ -11,7 +27,7 @@ for i, note in enumerate(
 \\version "2.20.0"
 
 \\header {{
-  title = "Accord de {note} majeur"
+  title = "Accord de {note_names[note]} majeur"
   composer = "Ce fichier a été généré par GNU Accord"
 }}
 
